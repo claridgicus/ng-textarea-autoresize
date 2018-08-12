@@ -1,7 +1,7 @@
 import { ElementRef, HostListener, Directive, AfterContentChecked } from '@angular/core';
 
 @Directive({
-  selector: '[Autoresize]'
+  selector: '[autoresize]'
 })
 
 @HostListener('input', ['$event.target'])
