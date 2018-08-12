@@ -13,7 +13,7 @@ A directive to automatically resize a textarea field based on its contents - dea
 npm install ng-textarea-autoresize
 ```
 
-## How to make it works:
+## How to make it work:
 
 Add the declaration to your @NgModule:
 
