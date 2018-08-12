@@ -7,13 +7,13 @@ Welcome friend you need ***ng-textarea-autoresize*** !
 
 A directive to automatically resize a textarea field based on its contents - death to scroll bars!
 
-## Installation:
+## Put it in:
 
 ```bash
 npm install ng-textarea-autoresize
 ```
 
-## Use Example:
+## Hot to make it works:
 
 Add the declaration to your @NgModule:
 
