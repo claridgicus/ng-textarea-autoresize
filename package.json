@@ -1,0 +1,22 @@
+{
+  "author": "James Claridge <dev@claridge.com.au>",
+  "description": "Angular 5+ directive to resize a textarea field dynamically based on the content of the field instantaneously",
+  "devDependencies": {
+    "@angular/core": "5.0.0",
+    "typescript": "^2.0.6"
+  },
+  "keywords": [
+    "angular",
+    "textarea",
+    "resize"
+  ],
+  "license": "MIT",
+  "main": "index.ts",
+  "name": "ng-textarea-autosize",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claridgicus/ng-textarea-autoresize.git"
+  },
+  "scripts": {},
+  "version": "1.0"
+}
