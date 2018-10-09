@@ -1,5 +1,5 @@
-import {Autoresize} from './src/autoresize.directive';
-export * from './src/autoresize.directive';
+import {Autosize} from './src/autosize.directive';
+export * from './src/autosize.directive';
 export default {
-  directives: [Autoresize]
+  directives: [Autosize]
 }
