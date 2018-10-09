@@ -16,7 +16,7 @@ export class Autosize implements AfterContentChecked {
   }
 
   ngAfterContentChecked(): void {
-    this.autoresizer();
+    this.autosizer();
   }
 
   autosizer(): void {
