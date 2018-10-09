@@ -1,14 +1,14 @@
 import { ElementRef, HostListener, Directive, AfterContentChecked } from '@angular/core';
 
 @Directive({
-  selector: '[autoresize]'
+  selector: '[autosize]'
 })
 
 @HostListener('input', ['$event.target'])
 
-export class Autoresize implements AfterContentChecked {
+export class Autosize implements AfterContentChecked {
     onInput(textArea: HTMLTextAreaElement): void {
-    this.autoresizer();
+    this.autosizer();
   }
 
   constructor(public element: ElementRef) {
@@ -19,7 +19,7 @@ export class Autoresize implements AfterContentChecked {
     this.autoresizer();
   }
 
-  autoresizer(): void {
+  autosizer(): void {
     this.element.nativeElement.style.overflow = 'hidden';
     this.element.nativeElement.style.height = 'auto';
     this.element.nativeElement.style.height = this.element.nativeElement.scrollHeight + "px";
